@@ -3,7 +3,7 @@ function casino(){
     for (let count = 1; count<=10; count++){
         let result = +prompt(`Попытка №${count}, Введите число`)
         if (result == number){
-            return (`Вы угодали число! Попыток: ${count}, Число ${number} `)
+            return alert(`Вы угодали число! Попыток: ${count}, Число ${number} `)
         }
         else if (result<number){
             alert (`Ваше число ${result}, меншьше загаданного!`)
